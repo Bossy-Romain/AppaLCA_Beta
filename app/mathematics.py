@@ -21,3 +21,17 @@ def fadd(x: float, y: float) -> int:
     :return: the sum of x and y
     :rtype: int
     """
+    return x + y
+
+
+def sub(x: int, y: int) -> int:
+    """Substraction of two integers
+
+    :param x: first operand
+    :type x: int
+    :param y: second operand
+    :type y: int
+    :return: the substraction of x by y
+    :rtype: int
+    """
+    return x - y
