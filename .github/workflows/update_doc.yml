@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Send notification
-              uses: peter-evans/repository-dispatch
+              uses: peter-evans/repository-dispatch@v3
               with:
                 event-type: update-documentation
                 token: ${{ secrets.PAT }}
