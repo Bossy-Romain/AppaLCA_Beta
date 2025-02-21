@@ -1,0 +1,17 @@
+name: Send a notification to the documentation repository to update the documentation
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+    notify:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Send notification
+              uses: peter-evans/repository-dispatch
+              with:
+                event-type: update-documentation
+                token: ${{ secrets.PAT }}
+                repository: Bossy-Romain/AppLCA_Beta_Doc
