@@ -14,4 +14,4 @@ jobs:
               with:
                 event-type: update-documentation
                 token: ${{ secrets.PAT }}
-                repository: Bossy-Romain/AppLCA_Beta_Doc
+                repository: Bossy-Romain/AppaLCA_Beta_Doc
