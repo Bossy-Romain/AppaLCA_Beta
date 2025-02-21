@@ -9,3 +9,15 @@ def add(x: int, y: int) -> int:
     :rtype: int
     """
     return x + y
+
+
+def fadd(x: float, y: float) -> int:
+    """Addition of two floats
+
+    :param x: first operand
+    :type x: float
+    :param y: second operand
+    :type y: float
+    :return: the sum of x and y
+    :rtype: int
+    """
